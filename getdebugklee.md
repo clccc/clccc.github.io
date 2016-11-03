@@ -2,7 +2,7 @@
 
 #### 安装LLVM等配套软件
 详细见文档Building KLEE (LLVM 3.4)
-以下为"Working with KLEE source code"中"Setting up a debug build of KLEE"一节,我在安装时遇到的问题和解决笔记.
+以下只记录在操作"Working with KLEE source code"中"Setting up a debug build of KLEE"一节时,我遇到的问题.
 
 #### 配置configure
 1. configure的前后可以添加什么参数,其实是可以在configure文件中查到的
