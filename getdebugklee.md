@@ -9,7 +9,7 @@
 2. 执行configure配置命令
 ```
 configure命令:
-CXXFLAGS="-g -O0" CFLAGS="-g -O0" LDFLAGS="-ldl -pthread -ltinfo" ./configure with_llvm_build_mode="check" LLVM_BUILD_MODE="Debug"  --with-llvmsrc=../llvm-3.4-src --with-llvmobj="/home/ccc/program/llvm-3.4-build/" --with-stp=../stp   --with-llvmcxx=/home/ccc/program//llvm-3.4-install/bin/clang++ --with-llvmcc=/home/ccc/program/llvm-3.4-install/bin/clang --with-uclibc=/home/ccc/program/klee-uclibc --enable-posix-runtime --with-runtime=Debug+Asserts
+CXXFLAGS="-g -O0" CFLAGS="-g -O0" LDFLAGS="-ldl -pthread -ltinfo" ./configure with_llvm_build_mode="check" LLVM_BUILD_MODE="Debug"  --with-llvmsrc=../llvm-3.4-src --with-llvmobj="/home/ccc/program/llvm-3.4-build/" --with-stp=../stp   --with-llvmcxx=/home/ccc/program/llvm-3.4-install/bin/clang++ --with-llvmcc=/home/ccc/program/llvm-3.4-install/bin/clang --with-uclibc=/home/ccc/program/klee-uclibc --enable-posix-runtime --with-runtime=Debug+Asserts
 ```
 出错 "configure: error: Could not autodetect build mode",在configure文件中搜索相应的字符串,找到如下代码
 ```
