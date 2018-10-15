@@ -10,3 +10,6 @@ github_username:
 # Build settings
 markdown: kramdown
 permalink: pretty
+google_analytics: UA-0000000-01
+show_downloads: true
+theme: jekyll-theme-leap-day
