@@ -1,0 +1,12 @@
+# Site settings
+title: saved something
+email:
+description: Community Site
+baseurl:
+url:
+twitter_username:
+github_username:  
+
+# Build settings
+markdown: kramdown
+permalink: pretty
